@@ -1,10 +1,10 @@
-
-# Started from playing with and modifying of Nautilus-Emblems-Menu-Extension
-# https://github.com/allefant/Nautilus-Emblems-Menu-Extension
-# by ubuntu@allefant.com
-# And from playing with and modifying of Nautilus extension: nautilus extra columns
-# https://github.com/3ed/nautilus-nec
-# by krzysztof1987@gmail.com
+# Started from playing with and modifying of
+#    * Nautilus-Emblems-Menu-Extension
+#      https://github.com/allefant/Nautilus-Emblems-Menu-Extension
+#      by ubuntu@allefant.com
+#    * Nautilus extension: nautilus extra columns
+#      https://github.com/3ed/nautilus-nec
+#      by krzysztof1987@gmail.com
 
 
 import gi
