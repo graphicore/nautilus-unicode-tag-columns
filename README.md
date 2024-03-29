@@ -2,6 +2,8 @@
 
 Tag files and folders with unicode emoji and display tags in a column.
 
+![screenshot showing the "Emoji Tags" column in nautilus](/docs/Screenshot from 2024-03-29 11-47-42.png)
+
 ## Usage/What it does
 
 After successful install a column "Emoji Tags" can be added in Nautilus "List View" (via "Visible Columns …" Menu). This column will display the Emoji that can be chosen in the right-click menu "Emoji Tags", when right clicking on one or more selected files or directories.
@@ -16,7 +18,7 @@ See also the README of nautilus-python for usage/debugging info, examples and do
 ## Install
 
 
-Just use 
+Just use
 
 ```
 $ make install
@@ -34,10 +36,10 @@ $ make uninstall
 
 Make sure nautilus is not already running.
 
-With `NAUTILUS_PYTHON_DEBUG=misc` you will see python output and errors in the shell output. 
+With `NAUTILUS_PYTHON_DEBUG=misc` you will see python output and errors in the shell output.
 
 ```
-$ export NAUTILUS_PYTHON_DEBUG=misc 
+$ export NAUTILUS_PYTHON_DEBUG=misc
 $ make install && nautilus
 ```
 
