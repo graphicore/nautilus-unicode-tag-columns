@@ -2,7 +2,7 @@
 
 Tag files and folders with unicode emoji and display tags in a column.
 
-![screenshot showing the "Emoji Tags" column in nautilus](/docs/Screenshot from 2024-03-29 11-47-42.png)
+![screenshot showing the "Emoji Tags" column in nautilus](docs/Screenshot_from_2024-03-29_11-47-42.png)
 
 ## Usage/What it does
 
