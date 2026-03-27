@@ -105,25 +105,11 @@ class UnicodeTagColumn(GObject.GObject,
             )
         ]
 
-    def update_file_info_full(self, provider, handle, closure, file_info):
-        GObject.idle_add(
-            self.set_file_info,
-            provider,
-            handle,
-            closure,
-            file_info,
-        )
-        return Nautilus.OperationResult.IN_PROGRESS
-
-    def set_file_info(self, provider, handle, closure, file_info):
-        filename = unquote(file_info.get_uri()[7:])
-        # read the value
+    def update_file_info(self, file_info, *args):
+        if file_info.get_uri_scheme() != 'file':
+            return
         file_emojis = read_metadata_emoji(file_info)
         file_emojis = sorted(file_emojis, key=lambda string:EMOJIS[string].ordering)
-        value = ''.join(file_emojis);
-        # add it
-        file_info.add_string_attribute('unicode_tags', value);
-        # complete it
-        Nautilus.info_provider_update_complete_invoke(
-            closure, provider, handle, Nautilus.OperationResult.COMPLETE)
+        value = ''.join(file_emojis)
+        file_info.add_string_attribute('unicode_tags', value)
 
