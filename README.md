@@ -15,6 +15,8 @@ I'm personaly happy with just the color circles for my needs, but all of unicode
 You'll need https://gitlab.gnome.org/GNOME/nautilus-python on my distribution the package name is `python-nautilus`
 See also the README of nautilus-python for usage/debugging info, examples and docs.
 
+I had to install `zypper install 'typelib(Nautilus)'` when I updated the code to nautilus `4.1`.
+
 ## Install
 
 
