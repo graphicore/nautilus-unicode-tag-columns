@@ -1,3 +1,5 @@
+This line was written by the agent-user
+
 # Nautilus Extension: Unicode Tag Columns
 
 Tag files and folders with unicode emoji and display tags in a column.
