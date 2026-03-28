@@ -1,4 +1,5 @@
 This line was written by the agent-user
+This line was written by the personal user
 
 # Nautilus Extension: Unicode Tag Columns
 
